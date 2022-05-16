@@ -1,0 +1,16 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    align-items: center;
+    background-color:cadetblue;
+}
+.logo-container img{
+    width: 60px;
+    margin-top: 8px;
+}
+.menu-container a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: lighter;
+}
