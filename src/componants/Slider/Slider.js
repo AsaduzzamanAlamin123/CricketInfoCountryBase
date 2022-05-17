@@ -1,49 +1,49 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap/Carousel';
-import pic1 from '../../image/360-3608439_shakib-al-hasan-2019.jpg'
+// import React from 'react';
+// import { Carousel } from 'react-bootstrap/Carousel';
+// import pic1 from '../../image/360-3608439_shakib-al-hasan-2019.jpg'
 
-const Slider = () => {
-    return (
-        <div>
-           <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/144800/144859.6.jpg"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={pic1}
-      alt="Second slide"
-    />
+// const Slider = () => {
+//     return (
+//         <div>
+//            <Carousel>
+//   <Carousel.Item>
+//     <img
+//       className="d-block w-100"
+//       src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/144800/144859.6.jpg"
+//       alt="First slide"
+//     />
+//     <Carousel.Caption>
+//       <h3>First slide label</h3>
+//       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+//     </Carousel.Caption>
+//   </Carousel.Item>
+//   <Carousel.Item>
+//     <img
+//       className="d-block w-100"
+//       src={pic1}
+//       alt="Second slide"
+//     />
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
+//     <Carousel.Caption>
+//       <h3>Second slide label</h3>
+//       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+//     </Carousel.Caption>
+//   </Carousel.Item>
+//   <Carousel.Item>
+//     <img
+//       className="d-block w-100"
+//       src="holder.js/800x400?text=Third slide&bg=20232a"
+//       alt="Third slide"
+//     />
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-        </div>
-    );
-};
+//     <Carousel.Caption>
+//       <h3>Third slide label</h3>
+//       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+//     </Carousel.Caption>
+//   </Carousel.Item>
+// </Carousel>
+//         </div>
+//     );
+// };
 
-export default Slider;
+// export default Slider;
