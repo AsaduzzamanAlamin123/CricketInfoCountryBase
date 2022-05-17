@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 20% 70%;
     align-items: center;
-    background-color:cadetblue;
+    background-color:brown;
 }
 .logo-container img{
     width: 60px;

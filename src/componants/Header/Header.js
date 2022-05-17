@@ -14,8 +14,8 @@ const Header = () => {
             </div>
             <div className='menu-container'>
                 <Link to='/'>Home</Link>
-                <Link to='/'>Cricket Team</Link>
-                <Link to='/'>Legend Player</Link>
+                <Link to='/cricketteam'>Cricket Team</Link>
+                <Link to='/legendplayer'>Legend Player</Link>
                 <Link to='/'>ABout </Link>
                 <Link to='/'>contact</Link>
 
