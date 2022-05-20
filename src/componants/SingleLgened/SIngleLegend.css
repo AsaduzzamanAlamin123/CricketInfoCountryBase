@@ -4,17 +4,20 @@ body{
 
 
 .lgd-pic{
-    width: 120px;
-    height: 120px;
+    width: 490px;
+    height: 220px;
+    border-radius: 5px;
 }
 .name{
     color: brown;
+    font-family: cursive;
 }
 .single-lgd{
     border: 1px solid gray;
-    margin: 1px;
+    margin: 10px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
 }
 .single-lgd p{
     text-align: justify;
