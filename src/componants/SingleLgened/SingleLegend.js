@@ -6,10 +6,10 @@ const SingleLegend = (props) => {
     const {agelegend , aboutlegend , namelegend , picturelegend} = props.legend
     
     return (
-        <div>
+        <div className='single-lgd'>
            <img className='lgd-pic' src={picturelegend} alt="" />
-           <h4>{namelegend}</h4>
-           <h4>Age: {agelegend}</h4>
+           <h4 className='name'>{namelegend}</h4>
+           <h4 className='name'>Age: {agelegend}</h4>
            <p>{aboutlegend}</p>
         </div>
     );

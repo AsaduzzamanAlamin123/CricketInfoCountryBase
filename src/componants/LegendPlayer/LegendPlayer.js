@@ -11,9 +11,9 @@ const LegendPlayer = () => {
     },[])
 
     return (
-        <div className='legend-full'>
+        <div>
             <h4 className='full-legend-string'>Our <span className='ccri'>Cricket</span> <span className='lleg'>Legend</span>: {legends.length}</h4>
-            <div>
+            <div className='legend-full'>
                 {
                     legends.map(legend => <SingleLegend key={legend.id} legend={legend}></SingleLegend>)
                 }
