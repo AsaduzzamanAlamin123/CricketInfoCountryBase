@@ -7,7 +7,7 @@ import { Carousel } from 'react-bootstrap';
 const Home = () => {
     return (
         <div>
-           <div className='intro-section'>
+           <div className='intro-section container'>
                <div className='text-part'>
                    <h2 className='text'>My <br></br> 
                    <span className='My'>Fancy Cricket </span>
@@ -21,10 +21,10 @@ const Home = () => {
 
            </div>
 
-           <div className='carusol-style'>
+           <div className='carusol-style container'>
             <div className='text-partt'>
                 <p className='para'>
-                Cricket is a bat-and-ball game played between two teams of eleven
+                <span className='cstyle'>C</span>ricket is a bat-and-ball game played between two teams of eleven
                  players each on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, 
                  each comprising two bails balanced on three stumps. The game proceeds when a player on the fielding team,
                   called the bowler, "bowls" (propels) the ball from one end of the pitch towards the wicket at the other end, 
