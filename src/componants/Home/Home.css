@@ -37,3 +37,14 @@ border-radius: 10px;
     grid-template-columns: 50% 50%;
     margin-top: 10px;
 }
+.text-partt{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.para{
+    color: blueviolet;
+margin-top: 40px;
+}
