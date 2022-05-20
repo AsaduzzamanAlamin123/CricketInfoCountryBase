@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './CriketTeam.css';
 import SingleCountry from '../SingleCountry/SingleCountry';
 
 const CriketTeam = () => {
@@ -12,7 +13,7 @@ const CriketTeam = () => {
     return (
         <div>
             <h2>team: {team.length}</h2>
-            <div>
+            <div className='allcard'>
                 {
                     team.map(tm =><SingleCountry key={tm.id} tm={tm}></SingleCountry>)
                 }
