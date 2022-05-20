@@ -1,0 +1,17 @@
+.ccri{
+    color: red;
+}
+.full-legend-string{
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px gray;
+    /* text-align: center; */
+    
+}
+.lleg{
+    color: cadetblue;
+}
+.legend-full{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

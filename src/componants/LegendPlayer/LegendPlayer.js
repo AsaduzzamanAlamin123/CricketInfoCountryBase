@@ -1,16 +1,24 @@
 import React, { useEffect, useState } from 'react';
+import SingleLegend from '../SingleLgened/SingleLegend';
+import './LegendPlayer.css';
 
 const LegendPlayer = () => {
-    const [legend ,  setLegend] = useState([]);
+    const [legends ,  setLegends] = useState([]);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
-        .then(data => setLegend(data))
+        .then(data => setLegends(data))
     },[])
 
     return (
-        <div>
-            <h4>legend player</h4>
+        <div className='legend-full'>
+            <h4 className='full-legend-string'>Our <span className='ccri'>Cricket</span> <span className='lleg'>Legend</span>: {legends.length}</h4>
+            <div>
+                {
+                    legends.map(legend => <SingleLegend key={legend.id} legend={legend}></SingleLegend>)
+                }
+            </div>
+
         </div>
     );
 };
