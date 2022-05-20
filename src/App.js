@@ -5,6 +5,7 @@ import CricketTeam from './componants/CriketTeam/CriketTeam';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import LegendPlayer from './componants/LegendPlayer/LegendPlayer';
+import About from './componants/About/About';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element = {<Home></Home>}></Route>
         <Route path='/legendplayer'element={<LegendPlayer></LegendPlayer>}></Route>
         <Route path='/cricketteam'element={<CricketTeam></CricketTeam>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
 
       </Routes>
 

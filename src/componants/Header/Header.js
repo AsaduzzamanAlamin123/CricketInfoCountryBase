@@ -16,7 +16,7 @@ const Header = () => {
                 <Link to='/'>Home</Link>
                 <Link to='/cricketteam'>Cricket Team</Link>
                 <Link to='/legendplayer'>Legend Player</Link>
-                <Link to='/'>ABout </Link>
+                <Link to='/about'>ABout </Link>
                 <Link to='/'>contact</Link>
 
             </div>
