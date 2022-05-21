@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import LegendPlayer from './componants/LegendPlayer/LegendPlayer';
 import About from './componants/About/About';
+import Footer from './componants/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
 
       </Routes>
+      <Footer></Footer>
 
      
     </div>
