@@ -15,8 +15,11 @@ import { AiFillInstagram} from 'react-icons/ai';
 const Footer = () => {
     return (
         <div>
-            <h2>Footer</h2>
+           
             <footer>
+            <div className='ftext container rounded'>
+            <h2 className='font '>Footer</h2>
+            </div>
             <div className='footer container'>
                 <div className='about-us'>
                     <h5 className='text-sstyle'>About Us</h5>
