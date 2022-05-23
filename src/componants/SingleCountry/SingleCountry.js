@@ -1,23 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './SingleCountry.css';
 
 const SingleCountry = (props) => {
+    const {pictureflag , namecountry , champion , about , id} = props.tm
+    // const navigate = useNavigate();
+    // const showFriendDetail  = ()=>{
+    //    navigate('/singleCountry/' +  id)
+
+    // }
     console.log(props.tm);
-    const {pictureflag , namecountry , champion , about} = props.tm
+   
     return (
-        <Link to='/'>
+         <Link to={'/singleCountry/' +  id}>
         <div className='card-style'>
            
             
            <img className='flag-style' src={pictureflag} alt="" />
-           {/* <h2>{namecountry}</h2> */}
-           {/* <h4>world cup champion:{ champion}</h4> */}
-           {/* <h4>{about}</h4> */}
            
-          
+           {/* <button onClick={showFriendDetail}>Shoe detail</button> */}
+           
+          {/* eikhane je je part comment kora ache oitukt button dia detail dekar jonno */}
        </div>
-        </Link>
+         </Link>
     );
 };
 
