@@ -9,6 +9,7 @@ const CountryDetail = () => {
         fetch(url)
         .then(res=>res.json())
         .then(data => setDetailes(data))
+        // eikhane dataload kora somvov noy akhn porjonto karon eta amar nijosso toiri data
 
     },[])
     return (
